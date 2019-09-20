@@ -17,5 +17,5 @@ class Volant:
 
 
 if __name__ == "__main__":
-    path = "/Users/sidhanta/PycharmProjects/volant/vehicle-1.csv"
+    path = "./vehicle-1.csv"
     Volant().run(path)
