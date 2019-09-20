@@ -35,7 +35,7 @@ class Analysis:
                     iqr = q3 - q1
                     lower_whisker = q1 - 1.5 * iqr
                     upper_whisker = q3 + 1.5 * iqr
-                    print('Inter Quartile Range ---> ', iqr, lower_whisker, upper_whisker)
+                    print('Inter Quartile Range ---> ', iqr)
                     print('Lower Whisker ---> ', lower_whisker)
                     print('Upper Whisker ---> ', upper_whisker)
                     outliers = 0
